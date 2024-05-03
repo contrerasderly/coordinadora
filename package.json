@@ -1,0 +1,17 @@
+{
+  "name": "test-coordinadora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open",
+    "html-report": "cypress run --spec /Users/derly/Documents/Test-Coordinadora/cypress/e2e/test.cy.js --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
